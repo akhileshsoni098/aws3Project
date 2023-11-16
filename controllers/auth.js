@@ -69,7 +69,7 @@ if (!allowedFileTypes.includes(file.mimetype)) {
 }
  */
 
-        // const uploded = await singleFile(file)
+        const uploded = await singleFile(file)
 
         console.log(uploded)
 

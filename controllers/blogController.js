@@ -28,6 +28,7 @@ exports.createBlog = async (req, res) => {
         }
 
         const saveBlog = await BlogModel.create(data)
+        
 res.status(201).json({status:false , message:"blog created successfully and files uploaded on aws", data:saveBlog})
 
     } catch (error) {

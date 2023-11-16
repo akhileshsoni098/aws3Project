@@ -7,10 +7,7 @@ const fileUpload = require('express-fileupload');
 
 const app = express()
 
-
-
 app.use(fileUpload()); 
-
 
 app.use(express.json())
 
